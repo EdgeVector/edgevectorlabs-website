@@ -18,15 +18,7 @@ export default function Home() {
           name: 'Edge Vector Labs',
           legalName: 'Edge Vector Labs LLC',
           url: 'https://edgevectorlabs.com/',
-          email: 'contact@edgevector.org',
-          address: {
-            '@type': 'PostalAddress',
-            streetAddress: '14205 SE 36th St Ste 100',
-            addressLocality: 'Bellevue',
-            addressRegion: 'WA',
-            postalCode: '98006',
-            addressCountry: 'US'
-          }
+          email: 'contact@edgevector.org'
         })}</script>
       </Helmet>
 
@@ -62,7 +54,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <p>© 2026 Edge Vector Labs LLC · 14205 SE 36th St Ste 100, Bellevue, WA 98006</p>
+        <p>© 2026 Edge Vector Labs LLC</p>
         <p>
           <a className="link-btn" href="mailto:contact@edgevector.org">[Contact]</a>
           <a className="link-btn" href="https://thelastdb.com/">[The LastDB]</a>
