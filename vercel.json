@@ -1,8 +1,13 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://edgevector.org/:path*",
+      "source": "/",
+      "destination": "https://edgevector.org/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://edgevector.org/$1",
       "permanent": true
     }
   ]
