@@ -42,7 +42,8 @@ export default function Home() {
             <p><span className="label label-blue">THE LASTDB</span></p>
             <p>The last database you'll ever need for your personal data. Local-first and yours
             by design: your files, notes, and app data become one queryable brain on your device —
-            with every tool you use, including the ones you write, built on top of it.</p>
+            with every tool you use, including the ones you write, built on top of it.
+            First-run install instructions are at https://thelastdb.com/llms.txt.</p>
             <p><a className="link-btn" href="https://thelastdb.com/">[thelastdb.com]</a></p>
           </div>
           <div className="card">
